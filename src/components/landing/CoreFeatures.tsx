@@ -4,6 +4,9 @@ import {
   ShieldCheck,
   SquareStack,
   Workflow,
+  BrainCircuit,
+  BarChart4,
+  Lightbulb,
 } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
@@ -28,6 +31,21 @@ const items = [
     icon: Workflow,
   },
   {
+    title: "Credit Scoring AI",
+    desc: "Evaluasi profil dan risiko supplier lebih cepat dengan bantuan skor AI.",
+    icon: BrainCircuit,
+  },
+  {
+    title: "Smart Export Scoring",
+    desc: "Skor kesiapan ekspor supplier beserta rekomendasi area peningkatan.",
+    icon: BarChart4,
+  },
+  {
+    title: "Digital Advisor AI",
+    desc: "Saran dan rekomendasi langkah berikutnya di setiap tahap sourcing.",
+    icon: Lightbulb,
+  },
+  {
     title: "Trade chat kontekstual",
     desc: "Diskusi menempel pada RFQ/Quote untuk menghindari miskomunikasi.",
     icon: MessageSquareText,
@@ -49,12 +67,11 @@ export function CoreFeatures() {
             Semua kebutuhan sourcing, end-to-end di satu platform
           </h2>
           <p className="mt-3 text-sm text-[hsl(var(--muted-foreground))] md:text-base">
-            Bukan sekadar daftar fitur. Ini alur kerja yang mempercepat keputusan dan membuat
-            proses lebih transparan.
+            Bukan sekadar daftar fitur. Ini alur kerja yang diperkuat AI untuk mempercepat keputusan dan membuat proses lebih transparan.
           </p>
         </div>
 
-        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           {items.map((it) => (
             <Card key={it.title} className="h-full">
               <CardHeader>

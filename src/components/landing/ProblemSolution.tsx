@@ -17,8 +17,8 @@ export function ProblemSolution() {
             Dari proses manual yang lambat ke workflow yang terstruktur
           </h2>
           <p className="mt-3 text-sm text-[hsl(var(--muted-foreground))] md:text-base">
-            Indosourcing menyatukan RFQ, penawaran, dan keputusan deal agar tim procurement dan
-            supplier bisa fokus pada langkah berikutnya, bukan mengejar status.
+            Indosourcing menyatukan RFQ, penawaran, AI scoring, dan digital advisor agar tim procurement dan
+            supplier bisa fokus pada keputusan strategis, bukan mengejar status.
           </p>
         </div>
 
@@ -34,7 +34,7 @@ export function ProblemSolution() {
               <ul className="space-y-2 text-sm text-[hsl(var(--muted-foreground))]">
                 <li>Komunikasi tersebar di email/WA, sulit mencari konteks.</li>
                 <li>Status quote tidak jelas, follow-up rawan terlewat.</li>
-                <li>Perbandingan penawaran memakan waktu dan tidak rapi.</li>
+                <li>Evaluasi risiko dan perbandingan penawaran memakan waktu lama.</li>
               </ul>
             </CardContent>
           </Card>
@@ -49,7 +49,7 @@ export function ProblemSolution() {
               <ul className="space-y-2 text-sm text-[hsl(var(--muted-foreground))]">
                 <li>RFQ terpusat dengan format kebutuhan yang konsisten.</li>
                 <li>Penawaran terstruktur: harga, MOQ, lead time, dan catatan.</li>
-                <li>Keputusan lebih cepat lewat ringkasan status + chat transaksi.</li>
+                <li>Keputusan lebih cepat lewat AI scoring, digital advisor, dan chat per transaksi.</li>
               </ul>
             </CardContent>
           </Card>
@@ -60,7 +60,7 @@ export function ProblemSolution() {
             <div>
               Flow inti: <span className="font-medium text-[hsl(var(--foreground))]">RFQ</span>
               <ArrowRight className="mx-2 inline h-4 w-4" />
-              <span className="font-medium text-[hsl(var(--foreground))]">Penawaran</span>
+              <span className="font-medium text-[hsl(var(--foreground))]">Penawaran & Insight AI</span>
               <ArrowRight className="mx-2 inline h-4 w-4" />
               <span className="font-medium text-[hsl(var(--foreground))]">Deal</span>
             </div>

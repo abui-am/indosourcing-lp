@@ -17,7 +17,7 @@ const steps = [
   {
     n: "03",
     title: "Buyer review & deal",
-    desc: "Bandingkan, diskusi via chat, lalu putuskan deal lebih cepat.",
+    desc: "Review dengan dukungan AI scoring, diskusi via chat per RFQ, lalu putuskan deal.",
   },
 ];
 
@@ -31,8 +31,7 @@ export function HowItWorks() {
             3 langkah sederhana untuk sourcing yang lebih efisien
           </h2>
           <p className="mt-3 text-sm text-[hsl(var(--muted-foreground))] md:text-base">
-            Dari kebutuhan hingga keputusan deal, semua status bisa dilacak tanpa komunikasi yang
-            tercecer.
+            Dari kebutuhan hingga keputusan deal, semua status bisa dilacak dengan bantuan AI intelligence tanpa komunikasi yang tercecer.
           </p>
         </div>
 

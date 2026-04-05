@@ -4,6 +4,7 @@ import {
   ShieldCheck,
   Timer,
   TrendingUp,
+  BrainCircuit,
 } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
@@ -177,39 +178,39 @@ export function Hero() {
       <Container className="relative z-10 grid gap-10 py-12 md:grid-cols-2 md:items-center md:py-20">
         <div className="flex flex-col items-start">
           <h1 className="animate-fade-in-up text-3xl font-semibold tracking-tight md:text-5xl">
-            Sourcing B2B Lebih Cepat dengan Indosourcing
+            Sourcing B2B Lebih Cepat dengan AI di Indosourcing
           </h1>
           <p className="animate-fade-in-up animation-delay-100 mt-4 max-w-xl text-base text-[hsl(var(--muted-foreground))] md:text-lg">
             Publikasikan kebutuhan, bandingkan penawaran pemasok, dan capai deal dalam satu
-            workflow.
+            workflow yang didukung insight AI.
           </p>
 
           <div className="animate-fade-in-up animation-delay-200 mt-6 flex flex-col gap-3 sm:flex-row">
-            <Button href="#buyer" size="lg" className="shadow-lg shadow-[hsl(var(--primary))]/20 transition-transform hover:-translate-y-0.5">
-              Saya Buyer
+            <Button onClick={() => window.location.href = 'https://indosourcing.vercel.app/'} size="lg" className="shadow-lg shadow-[hsl(var(--primary))]/20 transition-transform hover:-translate-y-0.5">
+              Daftar Sekarang
             </Button>
             <Button
-              href="#supplier"
+              href="#how-it-works"
               size="lg"
               variant="outline"
               className="bg-background/50 backdrop-blur-sm transition-transform hover:-translate-y-0.5"
             >
-              Saya Supplier
+              Lihat Cara Kerja
             </Button>
           </div>
 
           <div className="animate-fade-in-up animation-delay-300 mt-6 grid gap-3 sm:grid-cols-3">
             <div className="flex items-center gap-2 rounded-[var(--radius)] border border-[hsl(var(--border))] bg-[hsl(var(--card))]/60 px-3 py-2 backdrop-blur-sm transition-colors hover:bg-[hsl(var(--muted))]">
               <FileText className="h-4 w-4 text-[hsl(var(--primary))]" />
-              <div className="text-xs font-medium">RFQ terpusat</div>
+              <div className="text-xs font-medium">RFQ Terpusat</div>
             </div>
             <div className="flex items-center gap-2 rounded-[var(--radius)] border border-[hsl(var(--border))] bg-[hsl(var(--card))]/60 px-3 py-2 backdrop-blur-sm transition-colors hover:bg-[hsl(var(--muted))]">
-              <TrendingUp className="h-4 w-4 text-[hsl(var(--primary))]" />
-              <div className="text-xs font-medium">Quote terstruktur</div>
+              <BrainCircuit className="h-4 w-4 text-[hsl(var(--primary))]" />
+              <div className="text-xs font-medium">AI Scoring</div>
             </div>
             <div className="flex items-center gap-2 rounded-[var(--radius)] border border-[hsl(var(--border))] bg-[hsl(var(--card))]/60 px-3 py-2 backdrop-blur-sm transition-colors hover:bg-[hsl(var(--muted))]">
               <MessagesSquare className="h-4 w-4 text-[hsl(var(--primary))]" />
-              <div className="text-xs font-medium">Chat transaksi</div>
+              <div className="text-xs font-medium">Chat Transaksi</div>
             </div>
           </div>
         </div>
@@ -220,7 +221,7 @@ export function Hero() {
               <div className="flex items-center justify-between gap-3">
                 <div>
                   <CardTitle>Workspace RFQ</CardTitle>
-                  <CardDescription>Semua status dan penawaran di satu tempat.</CardDescription>
+                  <CardDescription>Status, penawaran, dan insight AI di satu tempat.</CardDescription>
                 </div>
                 <Badge variant="outline" className="bg-background/50 relative overflow-hidden">
                   <span className="absolute inset-0 bg-[hsl(var(--primary))]/10 animate-pulse" />
@@ -248,10 +249,10 @@ export function Hero() {
                     </div>
                   </div>
                   <div className="rounded-[var(--radius)] border border-[hsl(var(--border))]/50 bg-[hsl(var(--background))]/80 p-3 transition-colors hover:bg-[hsl(var(--background))]">
-                    <div className="text-xs text-[hsl(var(--muted-foreground))]">Estimasi respon</div>
+                    <div className="text-xs text-[hsl(var(--muted-foreground))]">AI Credit Score</div>
                     <div className="mt-1 flex items-center gap-2">
-                      <Timer className="h-4 w-4 text-[hsl(var(--primary))]" />
-                      <div className="text-sm font-semibold">≤ 48 jam</div>
+                      <BrainCircuit className="h-4 w-4 text-[hsl(var(--primary))]" />
+                      <div className="text-sm font-semibold text-green-600">Low Risk</div>
                     </div>
                   </div>
                 </div>
@@ -261,18 +262,18 @@ export function Hero() {
                 <div className="group flex items-start gap-3 rounded-[var(--radius)] border border-[hsl(var(--border))] bg-background/50 p-4 transition-colors hover:bg-[hsl(var(--muted))]/50">
                   <ShieldCheck className="mt-0.5 h-4 w-4 text-[hsl(var(--primary))] transition-transform group-hover:scale-110" />
                   <div>
-                    <div className="text-sm font-medium">Kontrol akses berbasis role</div>
+                    <div className="text-sm font-medium">Kontrol Akses</div>
                     <div className="mt-1 text-xs text-[hsl(var(--muted-foreground))]">
                       Workspace buyer dan supplier terpisah.
                     </div>
                   </div>
                 </div>
                 <div className="group flex items-start gap-3 rounded-[var(--radius)] border border-[hsl(var(--border))] bg-background/50 p-4 transition-colors hover:bg-[hsl(var(--muted))]/50">
-                  <MessagesSquare className="mt-0.5 h-4 w-4 text-[hsl(var(--primary))] transition-transform group-hover:scale-110" />
+                  <BrainCircuit className="mt-0.5 h-4 w-4 text-[hsl(var(--primary))] transition-transform group-hover:scale-110" />
                   <div>
-                    <div className="text-sm font-medium">Chat berbasis konteks</div>
+                    <div className="text-sm font-medium">Digital Advisor</div>
                     <div className="mt-1 text-xs text-[hsl(var(--muted-foreground))]">
-                      Diskusi menempel ke RFQ/Quote terkait.
+                      Saran langkah selanjutnya per transaksi.
                     </div>
                   </div>
                 </div>

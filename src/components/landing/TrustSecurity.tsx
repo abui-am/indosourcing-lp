@@ -1,4 +1,4 @@
-import { Lock, ShieldCheck, Users } from "lucide-react";
+import { Lock, ShieldCheck, Users, BrainCircuit } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -16,7 +16,7 @@ export function TrustSecurity() {
           </h2>
           <p className="mt-3 text-sm text-[hsl(var(--muted-foreground))] md:text-base">
             Indosourcing dirancang untuk governance yang rapi: akses sesuai peran, data transaksi
-            terstruktur, dan komunikasi berada di konteks yang benar.
+            terstruktur, dan penggunaan AI dengan tata kelola yang jelas.
           </p>
         </div>
 
@@ -43,20 +43,20 @@ export function TrustSecurity() {
             </CardHeader>
             <CardContent>
               <div className="text-sm text-[hsl(var(--muted-foreground))]">
-                Informasi RFQ, quote, dan keputusan tersimpan rapi untuk audit internal.
+                Informasi RFQ, quote, dan keputusan tersimpan rapi untuk audit internal yang transparan.
               </div>
             </CardContent>
           </Card>
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-base">
-                <ShieldCheck className="h-4 w-4 text-[hsl(var(--primary))]" />
-                Trust signals
+                <BrainCircuit className="h-4 w-4 text-[hsl(var(--primary))]" />
+                AI Security
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="text-sm text-[hsl(var(--muted-foreground))]">
-                Profil organisasi, verifikasi, dan indikator kepercayaan mendukung shortlist.
+                Model AI digunakan dengan prinsip keamanan data ketat. AI hanya bertindak sebagai decision support, bukan pengganti keputusan bisnis.
               </div>
             </CardContent>
           </Card>
@@ -65,8 +65,8 @@ export function TrustSecurity() {
         <div className="mt-6 rounded-[var(--radius)] border border-[hsl(var(--border))] bg-[hsl(var(--card))] px-4 py-4">
           <div className="text-sm font-medium">Bahasa bisnis, bukan jargon teknis</div>
           <div className="mt-1 text-sm text-[hsl(var(--muted-foreground))]">
-            Kamu mendapatkan transparansi proses, kontrol akses, dan komunikasi yang tertata tanpa
-            mempersulit pengguna.
+            Kamu mendapatkan transparansi proses, kontrol akses, dan dukungan AI yang dapat diandalkan tanpa
+            mempersulit operasional.
           </div>
         </div>
       </Container>

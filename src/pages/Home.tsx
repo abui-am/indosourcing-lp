@@ -8,6 +8,7 @@ import { HowItWorks } from "@/components/landing/HowItWorks";
 import { Navbar } from "@/components/landing/Navbar";
 import { ProblemSolution } from "@/components/landing/ProblemSolution";
 import { TrustSecurity } from "@/components/landing/TrustSecurity";
+import { AIIntelligence } from "@/components/landing/AIIntelligence";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <CoreFeatures />
         <HowItWorks />
         <BuyerSupplier />
+        <AIIntelligence />
         <TrustSecurity />
         <FinalCta />
         <Faq />

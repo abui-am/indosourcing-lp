@@ -14,10 +14,10 @@ export function FinalCta() {
               Pilih peran kamu, lalu masuk ke workflow yang lebih cepat dan terstruktur.
             </div>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <Button href="#buyer" size="lg">
+              <Button onClick={() => window.location.href = 'https://indosourcing.vercel.app/'} size="lg">
                 Daftar sebagai Buyer
               </Button>
-              <Button href="#supplier" size="lg" variant="outline">
+              <Button onClick={() => window.location.href = 'https://indosourcing.vercel.app/'} size="lg" variant="outline">
                 Daftar sebagai Supplier
               </Button>
             </div>

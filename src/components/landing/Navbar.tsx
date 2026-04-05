@@ -41,11 +41,11 @@ export function Navbar() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Button href="#get-started" size="sm" className="hidden sm:inline-flex">
+          <Button onClick={() => window.location.href = 'https://indosourcing.vercel.app/'} size="sm" className="hidden sm:inline-flex">
             Daftar Sekarang
           </Button>
           <Button
-            href="#get-started"
+            onClick={() => window.location.href = 'https://indosourcing.vercel.app/'}
             size="sm"
             variant="outline"
             className="sm:hidden"
