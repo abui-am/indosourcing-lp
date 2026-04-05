@@ -17,11 +17,9 @@ export function Navbar() {
     <div className="sticky top-0 z-50 border-b border-[hsl(var(--border))] bg-[hsl(var(--background))]/80 backdrop-blur">
       <Container className="flex h-16 items-center justify-between">
         <a href="#" className="flex items-center gap-2 no-underline">
-          <div className="grid h-9 w-9 place-items-center rounded-xl bg-[hsl(var(--primary))]/15">
-            <div className="h-3.5 w-3.5 rounded-full bg-[hsl(var(--primary))]" />
-          </div>
-          <div className="leading-none">
-            <div className="text-sm font-semibold">Indosourcing</div>
+          <img src="/Indosourcing.png" alt="Indosourcing Logo" className="h-8 w-auto object-contain" />
+          <div className="leading-none hidden sm:block">
+            <div className="text-sm font-bold text-[hsl(var(--primary))]">Indosourcing</div>
             <div className="text-xs text-[hsl(var(--muted-foreground))]">
               Marketplace B2B
             </div>

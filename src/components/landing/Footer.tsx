@@ -8,7 +8,12 @@ export function Footer() {
       <Container>
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <div className="text-sm font-semibold">Indosourcing</div>
+            <a href="#" className="flex items-center gap-2 mb-4 no-underline">
+              <img src="/Indosourcing.png" alt="Indosourcing Logo" className="h-8 w-auto object-contain" />
+              <div className="leading-none">
+                <div className="text-sm font-bold text-[hsl(var(--primary))]">Indosourcing</div>
+              </div>
+            </a>
             <div className="mt-2 text-sm text-[hsl(var(--muted-foreground))]">
               Marketplace B2B untuk sourcing yang cepat, terstruktur, dan aman.
             </div>
