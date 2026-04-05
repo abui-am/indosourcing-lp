@@ -177,12 +177,15 @@ export function Hero() {
 
       <Container className="relative z-10 grid gap-10 py-12 md:grid-cols-2 md:items-center md:py-20">
         <div className="flex flex-col items-start">
+          <Badge variant="secondary" className="animate-fade-in-up mb-4 text-xs">
+            <span className="mr-1.5 flex h-2 w-2 rounded-full bg-[hsl(var(--primary))] animate-pulse"></span>
+            Managed B2B Export Marketplace
+          </Badge>
           <h1 className="animate-fade-in-up text-3xl font-semibold tracking-tight md:text-5xl">
-            Sourcing B2B Lebih Cepat dengan AI di Indosourcing
+            Sourcing B2B & Ekspor Lebih Cepat dengan AI di Indosourcing
           </h1>
           <p className="animate-fade-in-up animation-delay-100 mt-4 max-w-xl text-base text-[hsl(var(--muted-foreground))] md:text-lg">
-            Publikasikan kebutuhan, bandingkan penawaran pemasok, dan capai deal dalam satu
-            workflow yang didukung insight AI.
+            Platform <strong>End-to-End Orchestrator</strong>. Publikasikan kebutuhan, bandingkan penawaran pemasok, dan capai deal dalam satu workflow yang didukung AI Co-Pilot dan keamanan Blockchain.
           </p>
 
           <div className="animate-fade-in-up animation-delay-200 mt-6 flex flex-col gap-3 sm:flex-row">

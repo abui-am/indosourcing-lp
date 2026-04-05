@@ -1,4 +1,4 @@
-import { Lock, ShieldCheck, Users, BrainCircuit } from "lucide-react";
+import { Lock, ShieldCheck, Users, BrainCircuit, Link2 } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -15,12 +15,11 @@ export function TrustSecurity() {
             Proses lebih aman, lebih tertib, dan mudah diawasi
           </h2>
           <p className="mt-3 text-sm text-[hsl(var(--muted-foreground))] md:text-base">
-            Indosourcing dirancang untuk governance yang rapi: akses sesuai peran, data transaksi
-            terstruktur, dan penggunaan AI dengan tata kelola yang jelas.
+            Indosourcing dirancang untuk governance yang rapi: akses sesuai peran, infrastruktur Blockchain sebagai Trust Layer, dan tim ahli di lapangan.
           </p>
         </div>
 
-        <div className="mt-8 grid gap-4 md:grid-cols-3">
+        <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-base">
@@ -37,13 +36,26 @@ export function TrustSecurity() {
           <Card>
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-base">
-                <Lock className="h-4 w-4 text-[hsl(var(--primary))]" />
-                Data governance
+                <Link2 className="h-4 w-4 text-[hsl(var(--primary))]" />
+                Blockchain Escrow
               </CardTitle>
             </CardHeader>
             <CardContent>
               <div className="text-sm text-[hsl(var(--muted-foreground))]">
-                Informasi RFQ, quote, dan keputusan tersimpan rapi untuk audit internal yang transparan.
+                Milestone transaksi (DP, Produksi, QC, Shipping) dicatat secara immutable di Blockchain.
+              </div>
+            </CardContent>
+          </Card>
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-base">
+                <ShieldCheck className="h-4 w-4 text-[hsl(var(--primary))]" />
+                Human-in-the-loop
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="text-sm text-[hsl(var(--muted-foreground))]">
+                Layanan ahli lapangan untuk audit fisik pabrik dan Quality Control tahap akhir.
               </div>
             </CardContent>
           </Card>
@@ -56,17 +68,16 @@ export function TrustSecurity() {
             </CardHeader>
             <CardContent>
               <div className="text-sm text-[hsl(var(--muted-foreground))]">
-                Model AI digunakan dengan prinsip keamanan data ketat. AI hanya bertindak sebagai decision support, bukan pengganti keputusan bisnis.
+                Model AI digunakan dengan prinsip keamanan data ketat sebagai decision support.
               </div>
             </CardContent>
           </Card>
         </div>
 
         <div className="mt-6 rounded-[var(--radius)] border border-[hsl(var(--border))] bg-[hsl(var(--card))] px-4 py-4">
-          <div className="text-sm font-medium">Bahasa bisnis, bukan jargon teknis</div>
+          <div className="text-sm font-medium">LCS (Local Currency Settlement) Ready</div>
           <div className="mt-1 text-sm text-[hsl(var(--muted-foreground))]">
-            Kamu mendapatkan transparansi proses, kontrol akses, dan dukungan AI yang dapat diandalkan tanpa
-            mempersulit operasional.
+            Kami mendukung stabilitas makro dengan integrasi transaksi lintas batas tanpa ketergantungan penuh pada USD.
           </div>
         </div>
       </Container>

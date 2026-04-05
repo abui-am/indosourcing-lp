@@ -7,6 +7,8 @@ import {
   BrainCircuit,
   BarChart4,
   Lightbulb,
+  Link2,
+  Wallet,
 } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
@@ -17,7 +19,7 @@ import { Container } from "./Container";
 const items = [
   {
     title: "RFQ terpusat",
-    desc: "Buat dan kelola RFQ dengan kebutuhan yang jelas dan konsisten.",
+    desc: "Buat dan kelola RFQ dengan spesifikasi teknis (Tech Pack) yang siap diproduksi.",
     icon: FileText,
   },
   {
@@ -26,9 +28,9 @@ const items = [
     icon: SquareStack,
   },
   {
-    title: "Offer request workflow",
-    desc: "Tindak lanjut transaksi lebih rapi lewat alur permintaan penawaran.",
-    icon: Workflow,
+    title: "Blockchain Trust Layer",
+    desc: "Catat setiap tahap transaksi secara immutable sebagai Escrow yang aman berbasis smart contract.",
+    icon: Link2,
   },
   {
     title: "Credit Scoring AI",
@@ -37,22 +39,22 @@ const items = [
   },
   {
     title: "Smart Export Scoring",
-    desc: "Skor kesiapan ekspor supplier beserta rekomendasi area peningkatan.",
+    desc: "Skor kesiapan ekspor UMKM (NIB, Halal/ISO) beserta rekomendasi area peningkatan.",
     icon: BarChart4,
   },
   {
     title: "Digital Advisor AI",
-    desc: "Saran dan rekomendasi langkah berikutnya di setiap tahap sourcing.",
+    desc: "NLP untuk pemetaan RFQ ke HS Code dan strategi negosiasi di setiap tahap sourcing.",
     icon: Lightbulb,
   },
   {
-    title: "Trade chat kontekstual",
-    desc: "Diskusi menempel pada RFQ/Quote untuk menghindari miskomunikasi.",
-    icon: MessageSquareText,
+    title: "Smart Financing & LCS",
+    desc: "Akses modal kerja UMKM dan Local Currency Settlement untuk stabilitas transaksi lintas batas.",
+    icon: Wallet,
   },
   {
-    title: "Trust signal organisasi",
-    desc: "Profil, verifikasi, dan indikator kepercayaan untuk keputusan lebih confident.",
+    title: "Sourcing Agent & QC",
+    desc: "Dukungan Human-in-the-loop untuk audit pabrik dan Quality Control proyek berskala besar.",
     icon: ShieldCheck,
   },
 ];

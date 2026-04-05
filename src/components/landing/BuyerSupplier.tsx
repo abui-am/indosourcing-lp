@@ -22,8 +22,8 @@ export function BuyerSupplier() {
                 <ul className="space-y-2 text-sm text-[hsl(var(--muted-foreground))]">
                   <li>Bandingkan penawaran dengan format yang konsisten.</li>
                   <li>Insight Credit Scoring AI untuk keputusan lebih confident.</li>
-                  <li>Diskusi terpusat via chat per RFQ.</li>
-                  <li>Rekomendasi Digital Advisor AI.</li>
+                  <li>Supply Chain Tools untuk kalkulasi Lead Time & optimasi inventaris.</li>
+                  <li>Akses Managed Services (Sourcing Agent & OEM Consulting).</li>
                 </ul>
                 <div className="flex flex-col justify-center">
                   <div className="text-sm font-medium">Mulai kebutuhan sourcing</div>
@@ -55,8 +55,8 @@ export function BuyerSupplier() {
                 <ul className="space-y-2 text-sm text-[hsl(var(--muted-foreground))]">
                   <li>Lihat RFQ yang relevan dengan kapabilitas bisnis kamu.</li>
                   <li>Insight Smart Export Scoring untuk kesiapan ekspor.</li>
-                  <li>Follow-up lebih cepat lewat offer request workflow.</li>
-                  <li>Rekomendasi tindakan dari Digital Advisor AI.</li>
+                  <li>Akses Smart Financing dan pembuatan dokumen ekspor otomatis.</li>
+                  <li>Transaksi aman berkat Local Currency Settlement (LCS) & Escrow.</li>
                 </ul>
                 <div className="flex flex-col justify-center">
                   <div className="text-sm font-medium">Onboarding supplier</div>
